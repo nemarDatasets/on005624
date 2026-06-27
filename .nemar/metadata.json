@@ -1,27 +1,81 @@
 {
   "version": "2.0",
-  "dataset_id": "on005624",
-  "source": "openneuro",
-  "source_id": "ds005624",
+  "pipeline_stage": "enriched",
   "title": "Color Change Detection Task",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "[Unspecified]": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005624.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005624",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005624",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0105-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.7.0",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "ieeg"
   ],
-  "datatypes": [
-    "ieeg"
-  ]
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "A color change detection task dataset organized in BIDS format. This raw intracranial EEG dataset contains electrophysiological recordings from participants performing a visual perception task involving color discrimination. Participants viewed stimuli and detected changes in color, providing a controlled paradigm for investigating visual processing and perceptual decision-making in human intracranial recordings. The dataset is intended to support research in visual processing, cognitive neuroscience, and intracranial electrophysiology.",
+  "keywords": [
+    {
+      "term": "color discrimination"
+    },
+    {
+      "term": "visual task"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "iEEG-BIDS"
+    },
+    {
+      "term": "perceptual decision-making"
+    },
+    {
+      "term": "visual processing"
+    }
+  ],
+  "source_hash": "0d3322a2ce90cc1f85d2729314bc89093675602866e8ef2bf61ec518c5f0ad05"
 }
