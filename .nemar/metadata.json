@@ -1,8 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Color Change Detection Task",
-  "description": "A color change detection task dataset organized in BIDS format. This raw neuroimaging dataset contains intracranial electrophysiological (iEEG) recordings from participants performing a visual perception task involving detection of color changes in a controlled experimental paradigm. The dataset includes multi-channel iEEG recordings with synchronized behavioral responses and task event markers. Participants viewed visual stimuli and responded to color change events. The dataset facilitates standardized analysis and sharing of neuroimaging data in compliance with the Brain Imaging Data Structure specification.",
+  "description": "This dataset contains EEG recordings from a color change detection task, organized according to the Brain Imaging Data Structure (BIDS) standard. It is intended to support research on visual attention and perceptual change detection processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,34 +10,19 @@
   },
   "keywords": [
     {
-      "term": "color perception"
+      "term": "EEG"
+    },
+    {
+      "term": "color change detection"
     },
     {
       "term": "visual attention"
     },
     {
-      "term": "change detection"
-    },
-    {
-      "term": "intracranial electrophysiology"
-    },
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "visual perception task"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "human subjects"
-    },
-    {
       "term": "BIDS"
     },
     {
-      "term": "perceptual task"
+      "term": "electrophysiology"
     }
   ],
   "related_identifiers": [
@@ -54,12 +39,12 @@
     {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1038/s41597-019-0105-7",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.18112/openneuro.ds005624.v1.0.0",
