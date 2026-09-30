@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Color Change Detection Task",
-  "description": "This dataset contains EEG recordings from a color change detection task, organized according to the Brain Imaging Data Structure (BIDS) standard. It is intended to support research on visual attention and perceptual change detection processes.",
+  "description": "Raw electrophysiological recordings from a color change detection task, a visual working memory paradigm. The dataset is organized in BIDS format and is available through OpenNeuro and NEMAR. The README provides little detail on the participants or the acquisition, so the description is limited to what the dataset name and metadata state.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,19 +10,16 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
       "term": "color change detection"
     },
     {
-      "term": "visual attention"
-    },
-    {
-      "term": "BIDS"
+      "term": "visual working memory"
     },
     {
       "term": "electrophysiology"
+    },
+    {
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
@@ -58,7 +55,7 @@
     "ieeg"
   ],
   "sizes": [
-    "14.8 GB (106 files)"
+    "13.75 GB (106 files)"
   ],
   "formats": [
     ".eeg",
